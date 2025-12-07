@@ -1,0 +1,52 @@
+﻿body {
+    font-family: 'Comic Sans MS';
+    text-align: left;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    color: palevioletred;
+}
+
+.textBox {
+    font-size: 18px;
+    border-width: 2px;
+    color: brown;
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: palevioletred;
+    text-align: left;
+    background-color: antiquewhite;
+}
+
+.column {
+    padding: 10px;
+    float: left;
+}
+
+.left, .right {
+    width: 25%;
+}
+
+.middle {
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button {
+    margin: 5px 0;
+    padding: 4px 10px;
+}
+
+.dropDown, .textBox, #saveAsName {
+    box-sizing: border-box;
+}
